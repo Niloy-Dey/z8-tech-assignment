@@ -5,7 +5,7 @@ import cart from '../assets/Images/add-to-cart.png'
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar py-5">
+            <div className="container mx-auto navbar py-5">
                 <div className="navbar-start">
 
 
@@ -24,24 +24,24 @@ const Navbar = () => {
                     </div>
 
                     {/*navbar logo start here  */}
-                    <p className=" flex  justify-center items-center normal-case text-2xl font-serif font-bold "> <img className='w-10' src={navLogo} alt="" />E-Choaching</p>
+                    <p className=" flex  justify-center items-center  cursor-pointer normal-case text-3xl font-serif font-bold "> <img className='w-10' src={navLogo} alt="" />E-Choaching</p>
                 </div>
 
                 {/* Navbar center element start here  */}
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li className='px-3 font-serif	 font-semibold text-sm'>Home</li>
-                        <li className='px-3 font-serif	 font-semibold text-sm'>Service</li>
-                        <li className='px-3 font-serif	 font-semibold text-sm'>Popular Courses</li>
-                        <li className='px-3 font-serif	 font-semibold text-sm'>Top Selling Courses</li>
-                        <li className='px-3 font-serif  font-semibold text-sm'>All Courses</li>
+                        <li className='px-3 font-serif	text-xl  cursor-pointer  '>Home</li>
+                        <li className='px-3 font-serif	text-xl  cursor-pointer  '>Service</li>
+                        <li className='px-3 font-serif	text-xl  cursor-pointer  '>Popular Courses</li>
+                        <li className='px-3 font-serif	text-xl  cursor-pointer  '>Top Selling Courses</li>
+                        <li className='px-3 font-serif  text-xl  cursor-pointer '>All Courses</li>
                     </ul>
                 </div>
 
                 {/* navbar cart and sign in button start here  */}
                 <div className="navbar-end">
-                    <button><img className='w-7 mx-5' src={cart} alt="" /></button>
-                    <button className="btn font-serif bg-red-100 hover:bg-red-100"> <img className='w-5' src={user} alt="" />  Sign/Register</button>
+                    <button><img className='w-7 mx-5 cursor-pointer ' src={cart} alt="" /></button>
+                    <button className="btn font-serif cursor-pointer  bg-red-500 hover:bg-red-500"> <img className='w-5' src={user} alt="" />  Sign/Register</button>
                 </div>
             </div>
         </div>
