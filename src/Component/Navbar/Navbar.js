@@ -5,7 +5,7 @@ import cart from '../assets/Images/add-to-cart.png'
 const Navbar = () => {
     return (
         <div>
-            <div className="container mx-auto navbar py-5">
+            <div className="container mx-auto  navbar py-5">
                 <div className="navbar-start">
 
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                     </div>
 
                     {/*navbar logo start here  */}
-                    <p className=" flex  justify-center items-center  cursor-pointer normal-case text-3xl font-serif font-bold "> <img className='w-10' src={navLogo} alt="" />E-Choaching</p>
+                    <p className=" flex  justify-center items-center  cursor-pointer normal-case text-lg md:text-3xl lg:text-3xl font-serif font-bold "> <img className='w-5 md:w-10 lg:w-10' src={navLogo} alt="" />E-Choaching</p>
                 </div>
 
                 {/* Navbar center element start here  */}
@@ -41,7 +41,7 @@ const Navbar = () => {
                 {/* navbar cart and sign in button start here  */}
                 <div className="navbar-end">
                     <button><img className='w-7 mx-5 cursor-pointer ' src={cart} alt="" /></button>
-                    <button className="btn font-serif cursor-pointer  bg-red-500 hover:bg-red-500"> <img className='w-5' src={user} alt="" />  Sign/Register</button>
+                    <button className="btn btn-sm md:btn-lg lg:btn-lg font-serif cursor-pointer  bg-red-500 hover:bg-red-500"> <img className='w-4 md:w-5 lg:w-5' src={user} alt="" />  Sign/Register</button>
                 </div>
             </div>
         </div>
