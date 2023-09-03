@@ -31,6 +31,7 @@ const Courses = () => {
                         <p className='absolute top-3 left-3 '><img className='w-6 cursor-pointer' src={love} alt="" /></p>
                         <p className='absolute bottom-1 right-1  bg-white px-3 py-1 font-bold text-red-500'>30 % off</p>
                     </div>
+                    {/* card body code start here */}
                     <div class="card-body">
                         <div className='flex justify-between'>
                             <div className='flex justify-enter items-center '>
@@ -62,11 +63,13 @@ const Courses = () => {
 
                 {/* single card 2 start here  */}
                 <div class="card mx-auto  rounded-none w-80 md:w-80 lg:w-96 bg-base-100 shadow-xl   ">
+                    {/* card image code start here */}
                     <div className='relative'>
                         <figure><img src={course5} alt="Shoes" /></figure>
                         <p className='absolute top-3 left-3 '><img className='w-6 cursor-pointer' src={love} alt="" /></p>
                         <p className='absolute bottom-1 right-1  bg-white px-3 py-1 font-bold text-red-500'>30 % off</p>
                     </div>
+                    {/* card body code start here */}
                     <div class="card-body">
                         <div className='flex justify-between'>
                             <div className='flex justify-enter items-center '>
@@ -98,11 +101,13 @@ const Courses = () => {
 
                 {/* single card 3 start here  */}
                 <div class="card mx-auto  rounded-none w-80 md:w-80 lg:w-96 bg-base-100 shadow-xl   ">
+                    {/* card image code start here */}
                     <div className='relative'>
                         <figure><img src={course3} alt="Shoes" /></figure>
                         <p className='absolute top-3 left-3 '><img className='w-6 cursor-pointer' src={love} alt="" /></p>
                         <p className='absolute bottom-1 right-1  bg-white px-3 py-1 font-bold text-red-500'>30 % off</p>
                     </div>
+                    {/* card body code start here */}
                     <div class="card-body">
                         <div className='flex justify-between'>
                             <div className='flex justify-enter items-center '>
@@ -134,11 +139,14 @@ const Courses = () => {
 
                 {/* single card 4 start here  */}
                 <div class="card mx-auto  rounded-none w-80 md:w-80 lg:w-96 bg-base-100 shadow-xl   ">
+                    {/* card image code start here */}
                     <div className='relative'>
                         <figure><img src={course4} alt="Shoes" /></figure>
                         <p className='absolute top-3 left-3 '><img className='w-6 cursor-pointer' src={love} alt="" /></p>
                         <p className='absolute bottom-1 right-1  bg-white px-3 py-1 font-bold text-red-500'>30 % off</p>
                     </div>
+
+                    {/* card body code start here */}
                     <div class="card-body">
                         <div className='flex justify-between'>
                             <div className='flex justify-enter items-center '>

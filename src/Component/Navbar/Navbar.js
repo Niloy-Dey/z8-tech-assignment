@@ -2,6 +2,9 @@ import React from 'react';
 import navLogo from '../assets/Images/nav-logo.png'
 import user from '../assets/Images/user.png'
 import cart from '../assets/Images/add-to-cart.png'
+
+
+
 const Navbar = () => {
     return (
         <div>

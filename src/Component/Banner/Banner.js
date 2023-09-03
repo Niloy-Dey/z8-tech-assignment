@@ -48,49 +48,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
             </div>
-            {/* <div class="hero min-h-screen ">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div className='flex justify-center items-center col lg:flex-row md:flex-row  flex-col'>
-                        <img alt='' src={banner} class="w-80 md:w-96 lg:w-[500px] rounded-lg" />
-
-                        <div className='ml-5 flex flex-row md:flex-col lg:flex-col'>
-                            <div className='my-3 w-28 bg-green-300  p-1'>
-                                <h3 className='text-3xl text-red-500 font-bold font-mono'>100</h3>
-                                <p>Subject to </p>
-                                <p>Choose from</p>
-                            </div>
-
-                            <div className='my-3 w-28 bg-green-300  p-1'>
-                                <h3 className='text-3xl text-red-500 font-bold font-mono'>120+</h3>
-                                <p>Subject to </p>
-                                <p>Choose from</p>
-                            </div>
-
-                            <div className='my-3 w-28 bg-green-300  p-1'>
-                                <h3 className='text-3xl text-red-500 font-bold font-mono'>100</h3>
-                                <p>Subject to </p>
-                                <p>Choose from</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                    <div>
-                        <h1 class="text-6xl leading-tight font-bold">Take Your <br /> <span className='text-red-500'>Dreams</span> To The <br /> Next Level! </h1>
-                        <p class="py-6 text-justify bg-green-400 w-96">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button class="btn btn-primary">Get Started</button>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 };
