@@ -20,11 +20,18 @@ const Navbar = () => {
                             <li className='px-3 font-serif	 font-semibold text-sm'>Popular Courses</li>
                             <li className='px-3 font-serif	 font-semibold text-sm'>Top Selling Courses</li>
                             <li className='px-3 font-serif  font-semibold text-sm'>All Courses</li>
+                            <li>
+                                <button className="btn  btn-sm md:btn-lg lg:btn-lg text-xs md:text-xl lg:text-xl font-serif cursor-pointer block md:hidden lg:hidden bg-red-500 hover:bg-red-500">
+                                    <div className='flex pt-1   items-center'>
+                                        <img className='w-4 pr-1 md:w-5 lg:w-5' src={user} alt="" />  Sign/Register
+                                    </div>
+                                </button>
+                            </li>
                         </ul>
                     </div>
 
                     {/*navbar logo start here  */}
-                    <p className=" flex  justify-center items-center  cursor-pointer normal-case text-lg md:text-3xl lg:text-3xl font-serif font-bold "> <img className='w-5 md:w-10 lg:w-10' src={navLogo} alt="" />E-Choaching</p>
+                    <p className=" flex  justify-center items-center  cursor-pointer normal-case text-lg md:text-3xl lg:text-3xl font-serif font-bold  "> <img className='w-5   md:w-10 lg:w-10' src={navLogo} alt="" />E-Coaching</p>
                 </div>
 
                 {/* Navbar center element start here  */}
@@ -39,9 +46,13 @@ const Navbar = () => {
                 </div>
 
                 {/* navbar cart and sign in button start here  */}
-                <div className="navbar-end">
+                <div className="navbar-end ">
                     <button><img className='w-7 mx-5 cursor-pointer ' src={cart} alt="" /></button>
-                    <button className="btn btn-sm md:btn-lg lg:btn-lg font-serif cursor-pointer  bg-red-500 hover:bg-red-500"> <img className='w-4 md:w-5 lg:w-5' src={user} alt="" />  Sign/Register</button>
+                    <button className="btn  btn-sm md:btn-lg lg:btn-lg text-xs md:text-xl lg:text-xl font-serif cursor-pointer hidden md:block lg:block bg-red-500 hover:bg-red-500">
+                        <div className='flex  '>
+                            <img className='w-4 pr-1 md:w-5 lg:w-5' src={user} alt="" />  Sign/Register
+                        </div>
+                    </button>
                 </div>
             </div>
         </div>
